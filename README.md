@@ -1,0 +1,1 @@
+Este es una galería de imagenes con efecto LightBox

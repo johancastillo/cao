@@ -1,5 +1,5 @@
 @import url(materialize.min.css);
-@import url(bootstrap.min.cs);
+@import url(bootstrap.min.css);
 
 @font-face{
     font-family: Finger;
@@ -24,7 +24,8 @@ h1{font-family: Finger !important;}
 }
 
 .bio{
-    background: #dddddd;
+    background: #610079;
+    color: #fff;
 }
 
 .bio img{
@@ -56,5 +57,52 @@ h1{font-family: Finger !important;}
 }
 
 .galeria img{
-    box-shadow: 0 8px 10px -4px;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+.materialbox-caption{
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.caja{
+    width: 400px;
+    height: 400px;
+}
+
+.texto{
+    font-size: 21px !important;
+}
+
+.centrar{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.icons{
+    font-size: 60px;
+    bottom: 0px;
+}
+
+/* Adaptar el texto en pantalla */
+@media screen and (max-width: 600px){
+    .materialbox-caption{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption{
+        width: 70%;
+    }
 }
