@@ -1,0 +1,60 @@
+@import url(materialize.min.css);
+@import url(bootstrap.min.cs);
+
+@font-face{
+    font-family: Finger;
+    src: url(../fonts/FingerPaint-Regular.ttf);
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{margin: 0;padding: 0;font-family: Roboto !important;}
+
+body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+h1{font-family: Finger !important;}
+
+.name{
+    font-size: 60px;
+}
+
+.bio{
+    background: #dddddd;
+}
+
+.bio img{
+    width: 301px;
+    height: 301px;
+}
+
+.icon{
+    font-size: 70px;
+}
+
+.leter{
+    font-size: 40px;
+}
+
+.leter:hover{
+    text-decoration: none;
+}
+
+.social{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titulo{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.galeria img{
+    box-shadow: 0 8px 10px -4px;
+}
