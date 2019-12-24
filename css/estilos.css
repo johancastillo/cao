@@ -85,8 +85,8 @@ h1{font-family: Finger !important;}
 }
 
 .centrar{
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icons{
