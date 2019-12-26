@@ -41,6 +41,11 @@ h1{font-family: Finger !important;}
     font-size: 40px;
 }
 
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .leter:hover{
     text-decoration: none;
 }
